@@ -4,7 +4,7 @@ from pyowm import OWM
 
 user = str(input("Username: "))
 pw = str(input("Password: "))
-server = "localhost"
+server = "192.168.0.111"
 API_key = 'bd2cffa8775fb943b0de3d1a60d38fe5'
 API_rate = 1.0 # Calls per second
 
