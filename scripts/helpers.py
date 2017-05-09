@@ -1,4 +1,4 @@
-from config import *
+from scriptConfig import *
 
 def upsert(DataFrame, table, verbose = False):
 	
