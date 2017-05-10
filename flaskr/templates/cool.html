@@ -29,13 +29,13 @@
                 </form>
 		<h2 style="margin-top:30px;color:#ddccee;">{{location}}</h2>
 		<p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 43px;">
-			{% if weather.rain[0] > 1.0 %}
+			{% if weather.rain > 1.0 %}
                                 <i class="fa fa-tint" aria-hidden="true"></i>
                         {% endif %}
-                        {% if weather.clouds[0] > 40 %}
+                        {% if weather.clouds > 40 %}
                                 <i class="fa fa-cloud" aria-hidden="true"></i>
                         {% endif %}
-                        {% if weather.clouds[0] < 15 %}
+                        {% if weather.clouds < 15 %}
                                 <i class="fa fa-sun-o" aria-hidden="true"></i>
                         {% endif %}
 		</p>
@@ -47,10 +47,10 @@
     float: left;">
 	        <h2>Current Weather</h2>
     		<ul class="weather" style="color:#110022">
-        	<li class="list-group-item"><b>Clouds: </b>{{weather.clouds[0]}} %</li>
-        	<li class="list-group-item"><b>Rain: </b>{{weather.rain[0]}} inches</li>
-        	<li class="list-group-item"><b>Snow: </b>{{weather.snow[0]}} inches</li>
-        	<li class="list-group-item"><b>Wind: </b>{{weather.wind[0]}} MPH</li>
+        	<li class="list-group-item"><b>Clouds: </b>{{weather.clouds}} %</li>
+        	<li class="list-group-item"><b>Rain: </b>{{weather.rain}} inches</li>
+        	<li class="list-group-item"><b>Snow: </b>{{weather.snow}} inches</li>
+        	<li class="list-group-item"><b>Wind: </b>{{weather.wind}} MPH</li>
         	<li class="list-group-item"><b>Day Temp: </b>{{weather.temp_day[0]}} F</li>
     		</ul>
 		</div>
