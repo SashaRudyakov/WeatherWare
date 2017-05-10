@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 import urllib2
 import json
 import sys
 
-sys.path.insert(0, '/Users/sasharudyakov/Development/WeatherWare/flaskr/scripts')
+sys.path.append(sys.path[0][:-6] + "scripts")
 from predict import *
 
 # Automatically geolocate the connecting IP
@@ -23,8 +23,8 @@ def index():
     country = location['country_code']
     search = city + ", " + country
     prediction = predictClothes(search)
-#    weather = dict([(key, value[0]) for key, value in getWeatherFromDB(search).to_dict('list')]);
-    weather = getWeatherFromDB(search).to_dict('list');
+    weatherDict = getWeatherFromDB(search).to_dict('list')
+    weather = dict([(i, weatherDict[i][0]) for i in weatherDict])
     return render_template('cool.html', location=search, prediction=prediction, weather=weather)
 
 @app.route('/getPrediction', methods=['POST'])

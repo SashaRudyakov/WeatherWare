@@ -16,7 +16,7 @@ def getWeatherFromDB(city, columns = ["*"], verbose = False):
 	return(myData)
 	
 def createModels(models = modelList, verbose = False):
-
+	
 	# Create model for each prediction
 	for model in models:
 	
@@ -36,7 +36,8 @@ def createModels(models = modelList, verbose = False):
 				print("Starting " + model + " model...")
 			clf = RandomForestClassifier(n_estimators = 10)
 			clf = clf.fit(weather, clothing.values.ravel())
-			joblib.dump(clf, "scripts/models/" + model + 'Model.pkl')
+			joblib.dump(clf, "scripts" + delim + "models" + delim + model 
+				+ 'Model.pkl')
 			if verbose:
 				print("Done.")
 		except Exception as error:
@@ -53,8 +54,8 @@ def predictClothes(city, models = modelList, verbose = False):
 		print("Current weather in " + city + ":\n" + str(curWeather))
 	
 	# Apply each model
-	prediction = {model: str(joblib.load("scripts/models/" + model + 'Model.pkl'
-		).predict(curWeather)[0]) for model in models}
+	prediction = {model: str(joblib.load("scripts" + delim + "models" + delim 
+		+ model + 'Model.pkl').predict(curWeather)[0]) for model in models}
 	if verbose:
 		print("\nPrediction:\n" + str(prediction))
 	return(prediction)
