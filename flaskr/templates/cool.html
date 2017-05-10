@@ -8,8 +8,8 @@
     <meta name="generator" content="Bootply" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <!--[if lt IE 9]>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">    
+<!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
@@ -20,27 +20,45 @@
         <div class="row">
             <div class="col-lg-12 text-center v-center">
                 <h1>WeatherWare</h1>
-                <p class="lead">Detected current location: {{location}}</p>
+                <p class="lead">Search for a city!</p>
                 <form class="col-lg-12" action="{{url_for('getPrediction')}}" method="POST">
                     <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
                         <input class="form-control input-lg" title="city name" placeholder="Please enter a city" type="city" name="city">
                         <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit">GO</button></span>
                     </div>
                 </form>
+		<h2 style="margin-top:30px;color:#ddccee;">{{location}}</h2>
+		<p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 43px;">
+			{% if weather.rain > 1.0 %}
+                                <i class="fa fa-tint" aria-hidden="true"></i>
+                        {% endif %}
+                        {% if weather.clouds > 40 %}
+                                <i class="fa fa-cloud" aria-hidden="true"></i>
+                        {% endif %}
+                        {% if weather.clouds < 15 %}
+                                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                        {% endif %}
+		</p>
+                
 	    </div>
-            <div class="col-lg-12 text-center v-center">
-		<div style="width:500px;float:left;">
-	        <h2>Current Weather for {{location}}</h2>
+		<div style="margin-left: 20px;
+    text-align: center;
+    width: 500px;
+    float: left;">
+	        <h2>Current Weather</h2>
     		<ul class="weather" style="color:#110022">
         	<li class="list-group-item"><b>Clouds: </b>{{weather.clouds}} %</li>
-        	<li class="list-group-item"><b>Rain: </b>{{weather.rain}} % chance</li>
+        	<li class="list-group-item"><b>Rain: </b>{{weather.rain}} inches</li>
         	<li class="list-group-item"><b>Snow: </b>{{weather.snow}} inches</li>
         	<li class="list-group-item"><b>Wind: </b>{{weather.wind}} MPH</li>
-        	<li class="list-group-item"><b>Day Temp: </b>{{weather.temp_day}} F</li>
+        	<li class="list-group-item"><b>Day Temp: </b>{{weather.temp_day[0]}} F</li>
     		</ul>
 		</div>
-		<div style="width:500px;float:right;">
-    		<h2>Current Prediction</h2>
+		<div style="text-align: center;
+    margin-right: 60px;
+    width: 500px;
+    float: right;">
+    		<h2>You Should Wear...</h2>
     		<ul class="weather" style="color:#110022">
         	<li class="list-group-item"><b>Head: </b>{{prediction.head}}</li>
         	<li class="list-group-item"><b>Torso: </b>{{prediction.torso}}</li>
