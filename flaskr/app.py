@@ -1,5 +1,4 @@
-from flask import Flask, render_template, request
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, render_template, request, session, flash, redirect, url_for
 import urllib2
 import json
 import sys
@@ -12,7 +11,6 @@ f = urllib2.urlopen('http://freegeoip.net/json/')
 json_string = f.read()
 f.close()
 location = json.loads(json_string)
-print(location);
 
 app = Flask(__name__)
 
@@ -25,21 +23,33 @@ def index():
     prediction = predictClothes(search)
     weatherDict = getWeatherFromDB(search).to_dict('list')
     weather = dict([(i, weatherDict[i][0]) for i in weatherDict])
-    return render_template('cool.html', location=search, prediction=prediction, weather=weather)
+    return render_template('weather.html', location=search, prediction=prediction, weather=weather)
 
 @app.route('/getPrediction', methods=['POST'])
 def getPrediction():
     city = request.form['city']
     prediction = predictClothes(city)
-#    weather = dict([(key, value[0]) for key, value in getWeatherFromDB(city).to_dict('list')]);
-    weather = getWeatherFromDB(city).to_dict('list');
-    return render_template('cool.html', location=city,  prediction=prediction, weather=weather)
+    weatherDict = getWeatherFromDB(city).to_dict('list');
+    weather = dict([(i, weatherDict[i][0]) for i in weatherDict])
+    return render_template('weather.html', location=city,  prediction=prediction, weather=weather)
 
-# Weather
-#@app.route('/weather')
-#def weather():
-#    db.session.query('select count(*) from cities')   
-#    return render_template('location.html', location=location)
+@app.route('/login', methods=['POST'])
+def login():
+    username = request.form['username']
+    password = request.form['password']
+    session['logged_in'] = True
+    session['username'] = username
+    print(session)
+    flash('You were logged in')
+    return redirect(url_for('index'))
+
+@app.route('/logout')
+def logout():
+    session.pop('logged_in', None)
+    flash('You were logged out')
+    return redirect(url_for('index'))
+
 if __name__ == '__main__':
+    app.secret_key = 'super secret key'
     app.debug = True
     app.run()
