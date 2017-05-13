@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>WeatherWare</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default" style="margin-bottom:0px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WeatherWare</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <!-- Search weather -->
+                <form class="navbar-form navbar-left" action="{{url_for('getPrediction')}}" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-md" placeholder="Search for a location" type="city" name="city">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Go</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    {% if session.logged_in %}
+                    <li><a href="#">Hi {{session.username}}!</a></li>
+                    {% endif %}
+                    <li>
+                        {% if not session.logged_in %}
+                        <form class="navbar-form navbar-right" action="{{url_for('login')}}" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" type="username" name="username">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Password" type="password" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+                        </form>
+                        {% else %}
+                         <form class="nav navbar-form navbar-right" action="{{url_for('logout')}}">
+                            <button type="submit" class="btn btn-primary">Log Out</button>
+                        </form>
+                        {% endif %}
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-full">
+        <div class="row">
+            <div class="col-md-4 text-center v-center" style="margin-top:4%">
+                <p class="lead">You Should Wear</p>
+<!--                 <div class="form-group" style="padding-right: 40px; padding-left: 40px">
+                    <label for="sel1">Head</label>
+                    <select class="form-control" id="sel1">
+                        <option>{{prediction.head}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding-right: 40px; padding-left: 40px">
+                    <label for="sel1">Torso</label>
+                    <select class="form-control" id="sel1">
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                    </select>
+                </div>           
+                <div class="form-group" style="padding-right: 40px; padding-left: 40px">
+                    <label for="sel1">Legs</label>
+                    <select class="form-control" id="sel1">
+                        <option>{{prediction.legs}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding-right: 40px; padding-left: 40px">
+                    <label for="sel1">Feet</label>
+                    <select class="form-control" id="sel1">
+                        <option>{{prediction.feet}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding-right: 40px; padding-left: 40px">
+                    <label for="sel1">Accessories</label>
+                    <select class="form-control" id="sel1">
+                        <option>{{prediction.accessories}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                        <option>{{prediction.torso}}</option>
+                    </select>
+                </div>  -->    
+                <ul class="weather" style="color:#8a8390; font-size: 17px; padding-left: 40px; padding-right: 40px;">
+                    <li class="list-group-item weather-pred" style="margin-bottom:25px; background: #251931; border:none; text-align: left; border-radius: 9px;">
+                        <b style="color:#ffffff">Head: </b>
+                        {{prediction.head}}
+                    </li>
+                    <li class="list-group-item weather-pred" style="margin-bottom:25px; background: #251931; border:none; text-align: left; border-radius: 9px;"><b style="color:#ffffff">Torso: </b>{{prediction.torso}}</li>
+                    <li class="list-group-item weather-pred" style="margin-bottom:25px; background: #251931; border:none; text-align: left; border-radius: 9px;"><b style="color:#ffffff">Legs: </b>{{prediction.legs}}</li>
+                    <li class="list-group-item weather-pred" style="margin-bottom:25px; background: #251931; border:none; text-align: left; border-radius: 9px;"><b style="color:#ffffff">Feet: </b>{{prediction.feet}}</li>
+                    <li class="list-group-item weather-pred" style="margin-bottom:25px; background: #251931; border:none; text-align: left; border-radius: 9px;"><b style="color:#ffffff">Accessories: </b>{{prediction.accessories}}</li>
+                </ul>
+            </div>        
+            <div class="col-md-4 text-center v-center" style="margin-top:4%">
+ <!--                <h1>WeatherWare</h1>
+                <p class="lead">Search for a city!</p>
+                <form class="col-lg-12" action="{{url_for('getPrediction')}}" method="POST">
+                    <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
+                        <input class="form-control input-lg" title="city name" placeholder="Please enter a city" type="city" name="city">
+                        <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit">GO</button></span>
+                    </div>
+                </form>
+                <h2 style="margin-top:30px;color:#ddccee;">{{location}}</h2>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 43px;">
+                {% if weather.rain > 1.0 %}
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+                {% endif %}
+                {% if weather.clouds > 40 %}
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                {% endif %}
+                {% if weather.clouds < 15 %}
+                    <i class="fa fa-sun-o" aria-hidden="true"></i>
+                {% endif %}
+                </p> -->
+                <h1>WeatherWare</h1>
+                <p class="lead">Enjoy your day!</p>
+                <img style="width:250px"src="http://68.media.tumblr.com/c942989d6389da8e0a851987933fc393/tumblr_inline_nmm2avRLis1qi7zxw_400.png">
+            </div>
+            <div class="col-md-4 text-center v-center" style="margin-top:4%">
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 30px; color: #429dec">
+                {{location}}
+                </p>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 55px;">
+                {% if weather.rain > 1.0 %}
+                    <i class="fa fa-tint" aria-hidden="true"  style="color: #ff7f50"></i>
+                {% endif %}
+                {% if weather.clouds > 40 %}
+                    <i class="fa fa-cloud" aria-hidden="true" style="color: #ff7f50"></i>
+                {% endif %}
+                {% if weather.clouds < 15 %}
+                    <i class="fa fa-sun-o" aria-hidden="true" style="color: #ff7f50"></i>
+                {% endif %}
+                </p>
+
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 15px; color:#DDCCEE">
+                <b style="color: #ffffff">Temp:</b> {{weather.temp_day}} &#x2109;
+                </p>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 15px; color:#DDCCEE">
+                <b style="color: #ffffff">Clouds:</b> {{weather.clouds}} %
+                </p>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 15px; color:#DDCCEE">
+                <b style="color: #ffffff">Rain:</b> {{weather.rain}} in
+                </p>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 15px; color:#DDCCEE">
+                <b style="color: #ffffff">Snow:</b> {{weather.snow}} in
+                </p>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 15px; color:#DDCCEE">
+                <b style="color: #ffffff">Wind:</b> {{weather.wind}} MPH
+                </p>
+<!--                 <ul class="weather" style="color:#8a8390; font-size: 17px; padding-right: 40px; padding-left: 40px;">
+                    <li class="list-group-item" style="margin-bottom:25px; text-align: left; border-radius: 9px;"><b>Clouds: </b>{{weather.clouds}} %</li>
+                    <li class="list-group-item" style="margin-bottom:25px; text-align: left; border-radius: 9px;"><b>Rain: </b>{{weather.rain}} inches</li>
+                    <li class="list-group-item" style="margin-bottom:25px; text-align: left; border-radius: 9px;"><b>Snow: </b>{{weather.snow}} inches</li>
+                    <li class="list-group-item" style="margin-bottom:25px; text-align: left; border-radius: 9px;"><b>Wind: </b>{{weather.wind}} MPH</li>
+                    <li class="list-group-item" style="margin-bottom:25px; text-align: left; border-radius: 9px;"><b>Day Temp: </b>{{weather.temp_day}} F</li>
+                </ul> -->
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12" style="margin-top: 30px; font-size: 12px; padding-left:40px">
+        <p class="lead" style="font-size: 13px">
+            Quote of the day: <i>"Rats! Rats! Everywhere ya look! Everwhere ya look there's rats!"</i> - Die Antwoord
+        </p>
+        </div>
+        </div>
+    </div>
+<!-- script references -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+
+</html>

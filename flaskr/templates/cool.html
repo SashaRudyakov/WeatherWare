@@ -4,18 +4,78 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Landing Page template</title>
+    <title>WeatherWare</title>
     <meta name="generator" content="Bootply" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">    
-<!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navbar navbar-default" style="margin-bottom:0px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WeatherWare</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <!-- Search weather -->
+                <form class="navbar-form navbar-left" action="{{url_for('getPrediction')}}" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-md" placeholder="Search for a location" type="city" name="city">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Go</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    {% if session.logged_in %}
+                    <li><a href="#">Hi {{session.username}}!</a></li>
+                    {% endif %}
+                    <li>
+                        {% if not session.logged_in %}
+                        <form class="navbar-form navbar-right" action="{{url_for('login')}}" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" type="username" name="username">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Password" type="password" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+                        </form>
+                        {% else %}
+                         <form class="nav navbar-form navbar-right" action="{{url_for('logout')}}">
+                            <button type="submit" class="btn btn-primary">Log Out</button>
+                        </form>
+                        {% endif %}
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-full">
         <div class="row">
             <div class="col-lg-12 text-center v-center">
@@ -27,53 +87,45 @@
                         <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit">GO</button></span>
                     </div>
                 </form>
-		<h2 style="margin-top:30px;color:#ddccee;">{{location}}</h2>
-		<p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 43px;">
-			{% if weather.rain > 1.0 %}
-                                <i class="fa fa-tint" aria-hidden="true"></i>
-                        {% endif %}
-                        {% if weather.clouds > 40 %}
-                                <i class="fa fa-cloud" aria-hidden="true"></i>
-                        {% endif %}
-                        {% if weather.clouds < 15 %}
-                                <i class="fa fa-sun-o" aria-hidden="true"></i>
-                        {% endif %}
-		</p>
-                
-	    </div>
-		<div style="margin-left: 20px;
-    text-align: center;
-    width: 500px;
-    float: left;">
-	        <h2>Current Weather</h2>
-    		<ul class="weather" style="color:#110022">
-        	<li class="list-group-item"><b>Clouds: </b>{{weather.clouds}} %</li>
-        	<li class="list-group-item"><b>Rain: </b>{{weather.rain}} inches</li>
-        	<li class="list-group-item"><b>Snow: </b>{{weather.snow}} inches</li>
-        	<li class="list-group-item"><b>Wind: </b>{{weather.wind}} MPH</li>
-        	<li class="list-group-item"><b>Day Temp: </b>{{weather.temp_day[0]}} F</li>
-    		</ul>
-		</div>
-		<div style="text-align: center;
-    margin-right: 60px;
-    width: 500px;
-    float: right;">
-    		<h2>You Should Wear...</h2>
-    		<ul class="weather" style="color:#110022">
-        	<li class="list-group-item"><b>Head: </b>{{prediction.head}}</li>
-        	<li class="list-group-item"><b>Torso: </b>{{prediction.torso}}</li>
-        	<li class="list-group-item"><b>Legs: </b>{{prediction.legs}}</li>
-        	<li class="list-group-item"><b>Feet: </b>{{prediction.feet}}</li>
-        	<li class="list-group-item"><b>Accessories: </b>{{prediction.accessories}}</li>
-		</div>
-    		</ul>
-   	    </div>
+                <h2 style="margin-top:30px;color:#ddccee;">{{location}}</h2>
+                <p class="col-md-12 text-center v-center" style="margin-top:20px;font-size: 43px;">
+                {% if weather.rain > 1.0 %}
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+                {% endif %}
+                {% if weather.clouds > 40 %}
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                {% endif %}
+                {% if weather.clouds < 15 %}
+                    <i class="fa fa-sun-o" aria-hidden="true"></i>
+                {% endif %}
+                </p>
+            </div>
+            <div style="margin-left: 20px; text-align: center; width: 500px; float: left;">
+                <h2>Current Weather</h2>
+                <ul class="weather" style="color:#110022">
+                    <li class="list-group-item"><b>Clouds: </b>{{weather.clouds}} %</li>
+                    <li class="list-group-item"><b>Rain: </b>{{weather.rain}} inches</li>
+                    <li class="list-group-item"><b>Snow: </b>{{weather.snow}} inches</li>
+                    <li class="list-group-item"><b>Wind: </b>{{weather.wind}} MPH</li>
+                    <li class="list-group-item"><b>Day Temp: </b>{{weather.temp_day}} F</li>
+                </ul>
+            </div>
+            <div style="text-align: center; margin-right: 60px; width: 500px; float: right;">
+                <h2>You Should Wear...</h2>
+                <ul class="weather" style="color:#110022">
+                    <li class="list-group-item"><b>Head: </b>{{prediction.head}}</li>
+                    <li class="list-group-item"><b>Torso: </b>{{prediction.torso}}</li>
+                    <li class="list-group-item"><b>Legs: </b>{{prediction.legs}}</li>
+                    <li class="list-group-item"><b>Feet: </b>{{prediction.feet}}</li>
+                    <li class="list-group-item"><b>Accessories: </b>{{prediction.accessories}}</li>
+                </ul>
+            </div>
         </div>
     </div>
-        <!-- script references -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+<!-- script references -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 
 </html>
