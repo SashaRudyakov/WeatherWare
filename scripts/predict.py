@@ -33,7 +33,7 @@ def createModels(models = modelList, verbose = False):
 		# Create model
 		try:
 			if verbose:
-				print("Starting " + model + " model...")
+				print("Creating " + model + " model...")
 			clf = RandomForestClassifier(n_estimators = 10)
 			clf = clf.fit(weather, clothing.values.ravel())
 			joblib.dump(clf, "scripts" + delim + "models" + delim + model 
@@ -45,17 +45,52 @@ def createModels(models = modelList, verbose = False):
 				+ str(error) + "\n")
 			time.sleep(1)
 
-def predictClothes(city, models = modelList, verbose = False):
+def applyModel(model, weather):
+	return str(joblib.load("scripts" + delim + "models" + delim + model 
+		+ 'Model.pkl').predict(weather)[0])
+
+def applyPreference(weather, model, person = None):
+	
+	# If person is None just return the weather
+	if person is None:
+		return(weather)
+
+	# Else, apply preferences from person table
+	try:
+		print("YOU STILL NEED TO WRITE THIS")
+		return(weather)
+
+	# If model or person don't exist, just return weather
+	except:
+		print("Could not apply preference for the following:\nWeather: " 
+			+ str(weather) + "\nModel: " + model + "\nPerson: " + str(person))
+		return(weather)
+
+
+def predictClothes(city, models = modelList, person = None, verbose = False):
 	
 	# Get current weather
 	curWeather = getWeatherFromDB(city, 
 		columns = ["clouds", "rain", "wind", "temp_day"])
 	if verbose:
 		print("Current weather in " + city + ":\n" + str(curWeather))
+
+	# Get perceived weather for each model
+	perceivedWeather = {model: applyPreference(curWeather, model, person) 
+		for model in models}
 	
 	# Apply each model
-	prediction = {model: str(joblib.load("scripts" + delim + "models" + delim 
-		+ model + 'Model.pkl').predict(curWeather)[0]) for model in models}
+	try:
+		prediction = {model: applyModel(model, perceivedWeather[model]) 
+			for model in models}
+
+	# If models don't exist, make them	
+	except:
+		createModels()
+		prediction = {model: applyModel(model, perceivedWeather[model]) 
+			for model in models}
+
+	# Returns dict of clothing predictions
 	if verbose:
 		print("\nPrediction:\n" + str(prediction))
 	return(prediction)

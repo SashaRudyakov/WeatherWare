@@ -60,8 +60,7 @@ def upsertCityWeather(city, limit = 16, verbose = False, retries = 3):
 	for weather in weathers:
 		readyToUpsert = readyToUpsert.append(weather)
 	if verbose:
-		print("Upserting weather for " + city + ":\n\n"
-			+ str(readyToUpsert.describe(include = "all")) + "\n")
+		print("Upserting weather for " + city + ":\n\n" + desc(readyToUpsert))
 	
 	# Upsert the combined DataFrame
 	upsertSuccess = False
@@ -76,7 +75,7 @@ def upsertCityWeather(city, limit = 16, verbose = False, retries = 3):
 				time.sleep(1)
 
 def upsertCountryWeather(country, limit = 16, verbose = False, retries = 3,
-		startIndex = 0, printUpdatesPerMinute = 1):
+	startIndex = 0, printUpdatesPerMinute = 1):
 
 	# Get unique cities
 	cities = download(
@@ -85,7 +84,7 @@ def upsertCountryWeather(country, limit = 16, verbose = False, retries = 3,
 		where = "country = '" + country + "'", 
 		verbose = True)
 	cities = cities.drop_duplicates().reset_index(drop = True)
-	print("After de-duping:\n\n" + str(cities.describe(include = "all")) + "\n")
+	print("After de-duping:\n\n" + desc(cities))
 
 	# Loop through cities
 	startTime = time.time()
@@ -102,7 +101,8 @@ def upsertCountryWeather(country, limit = 16, verbose = False, retries = 3,
 						printUpdatesPerMinute is not None
 						and printUpdatesPerMinute != 0
 						and curIndex % round(API_rate * 60.0 
-							/ printUpdatesPerMinute) == 0):
+							/ printUpdatesPerMinute) == 0) or (
+						curIndex == len(cities.index)):
 					print("Getting city " + str(curIndex) + ": " + curCity 
 						+ "...")
 				
