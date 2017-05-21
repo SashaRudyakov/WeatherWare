@@ -3,7 +3,7 @@ import time
 import sys
 
 def weatherToDF(weather, location, forecast, unit = "fahrenheit"):
-	
+
 	# Converts weather object into a single row DataFrame
 	return(pd.DataFrame(
 		[[
@@ -27,9 +27,9 @@ def weatherToDF(weather, location, forecast, unit = "fahrenheit"):
 		]],
 		columns = weatherColumns
 	))
-	
+
 def upsertCityWeather(city, limit = 16, verbose = False, retries = 3):
-	
+
 	# Get forecast for the city
 	getWeatherSuccess = False
 	for attempt in range(retries):
@@ -39,29 +39,29 @@ def upsertCityWeather(city, limit = 16, verbose = False, retries = 3):
 					).get_forecast()
 				getWeatherSuccess = True
 			except Exception as error:
-				print("\nERROR GETTING WEATHER: " + city + "\n" 
+				print("\nERROR GETTING WEATHER: " + city + "\n"
 					+ str(error) + "\n")
 				time.sleep(1)
-	
+
 	# Else, exit
 	if not getWeatherSuccess:
 		print("Unable to get weather for " + city + ".")
 		return None
-	
+
 	# Make list of DataFrames
 	weathers = [weatherToDF(
-		weather = weather, 
-		location = city, 
+		weather = weather,
+		location = city,
 		forecast = forecast
 	) for weather in forecast]
-	
+
 	# Combine into one DataFrame
 	readyToUpsert = pd.DataFrame()
 	for weather in weathers:
 		readyToUpsert = readyToUpsert.append(weather)
 	if verbose:
 		print("Upserting weather for " + city + ":\n\n" + desc(readyToUpsert))
-	
+
 	# Upsert the combined DataFrame
 	upsertSuccess = False
 	for attempt in range(retries):
@@ -70,7 +70,7 @@ def upsertCityWeather(city, limit = 16, verbose = False, retries = 3):
 				upsert(DataFrame = readyToUpsert, table = 'weather')
 				upsertSuccess = True
 			except Exception as error:
-				print("\nERROR UPSERTING WEATHER: " + city + "\n" 
+				print("\nERROR UPSERTING WEATHER: " + city + "\n"
 					+ str(error) + "\n")
 				time.sleep(1)
 
@@ -79,9 +79,9 @@ def upsertCountryWeather(country, limit = 16, verbose = False, retries = 3,
 
 	# Get unique cities
 	cities = download(
-		columns = ["city_name", "country"], 
-		table = "cities", 
-		where = "country = '" + country + "'", 
+		columns = ["city_name", "country"],
+		table = "cities",
+		where = "country = " + pFormat(country)),
 		verbose = True)
 	cities = cities.drop_duplicates().reset_index(drop = True)
 	print("After de-duping:\n\n" + desc(cities))
@@ -95,34 +95,34 @@ def upsertCountryWeather(country, limit = 16, verbose = False, retries = 3,
 				curIndex += 1
 				curTime = time.time()
 				curCity = str(row["city_name"]) + ", " + str(row["country"])
-				
+
 				# Print updates logic
 				if verbose or curIndex == startIndex + 1 or (
 						printUpdatesPerMinute is not None
 						and printUpdatesPerMinute != 0
-						and curIndex % round(API_rate * 60.0 
+						and curIndex % round(API_rate * 60.0
 							/ printUpdatesPerMinute) == 0) or (
 						curIndex == len(cities.index)):
-					print("Getting city " + str(curIndex) + ": " + curCity 
+					print("Getting city " + str(curIndex) + ": " + curCity
 						+ "...")
-				
+
 				# Upsert
 				try:
 					upsertCityWeather(
-						city = curCity, 
-						limit = limit, 
-						verbose = False, 
+						city = curCity,
+						limit = limit,
+						verbose = False,
 						retries = retries)
 				except Exception as error:
 					print("\nERROR: " + curCity + "\n" + str(error) + "\n")
-				
+
 				# Sleep logic
-				time.sleep(max(0, ((curIndex - startIndex) 
+				time.sleep(max(0, ((curIndex - startIndex)
 					- (curTime - startTime)) / API_rate))
-					
+
 			# Seems like it's due to unicode characters showing up
 			except Exception as error:
-				print("\nUNKNOWN ERROR AT INDEX " + str(curIndex) + ":\n" 
+				print("\nUNKNOWN ERROR AT INDEX " + str(curIndex) + ":\n"
 					+ str(error) + "\n")
 
 # If called directly, keep refreshing US data

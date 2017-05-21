@@ -2,20 +2,35 @@ from helpers import *
 import hashlib, binascii
 
 def encrypt(string):
+
+	# Use sha256 hash for password encryption
 	return(binascii.hexlify(hashlib.pbkdf2_hmac('sha256', hash_key, string,
 		100000)))
 
 def signIn(user, pw):
+
+	# Download their data
 	personData = download(
-		columns = ["pw"],
+		columns = ["username", "pw"],
 		table = "person",
-		where = "username = '" + user + "'")
+		where = "username = " + pFormat(user))
+
+	# If user is not found
 	if len(personData["pw"]) == 0:
 		return("User not found.")
-	if personData["pw"][0] == encrypt(pw):
-		return("Authentication successful.")
-	else:
+
+	# If Authentication fails
+	elif personData["pw"][0] != encrypt(pw):
 		return("Wrong password.")
+
+	# If authentication successful
+	else:
+
+		# Update visited stats
+		updatePersonStats(user, "visited")
+
+		# Return success
+		return("Authentication successful.")
 
 def signUp(user, pw):
 
@@ -24,7 +39,7 @@ def signUp(user, pw):
 		personData = download(
 			columns = ["username"],
 			table = "person",
-			where = "username = '" + user + "'")
+			where = "username = " + pFormat(user))
 		if len(personData["username"]) != 0:
 			return("Looks like you already have an account.")
 	except:
@@ -33,7 +48,8 @@ def signUp(user, pw):
 	# Else, sign up
 	signUpData = pd.DataFrame(
 		[
-			[user, encrypt(pw), datetime.date.today(), None]
+			# To match structure of person table
+			[user, encrypt(pw), date.today(), None]
 			+ [1] * 2 + [0] * 2 + [1, 0] * ((len(personColumns) - 8) / 2)
 		],
 		columns = personColumns

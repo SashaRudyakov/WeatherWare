@@ -1,541 +1,541 @@
-clouds,rain,snow,wind,temp,head,torso,legs,feet,accessories
-0,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,0,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,0,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-0,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,0,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,0,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-0,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,0,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,0,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-0,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,1,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,1,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-0,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,1,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,1,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-0,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-0,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-0,0,1,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-0,0,1,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-0,0,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-0,0,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,0,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,0,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,0,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,0,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,0,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,0,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,1,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,1,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,1,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,1,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-25,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-25,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-25,0,1,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
-25,0,1,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
-25,0,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
-25,0,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
-50,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-50,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-50,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-50,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-50,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-50,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-50,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-50,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-50,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-50,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-50,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-75,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-75,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-75,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-75,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-75,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-75,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-100,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
-100,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
-100,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
-100,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
-100,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
-100,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
-0,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-0,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-0,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-0,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-0,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-0,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-0,10,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-0,10,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-0,10,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-25,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-25,10,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
-25,10,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
-25,10,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
-50,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-50,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-50,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-50,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-50,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-50,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-50,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-50,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-50,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-75,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-75,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-75,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-75,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-100,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
-100,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
-100,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
-100,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
-0,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,0,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,0,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,0,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,0,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-0,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-0,50,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-0,50,1,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-0,50,1,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,0,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,0,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-25,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-25,50,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
-25,50,1,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-25,50,1,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-50,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-50,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-50,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-50,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-75,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-75,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-75,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-75,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
-100,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
-100,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
-100,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
-100,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+username,clouds,rain,snow,wind,temp_day,head,torso,legs,feet,accessories
+,0,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,0,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,0,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,0,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,0,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,0,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,0,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,0,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,0,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,0,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,1,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,1,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,0,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,1,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,1,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,0,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,0,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,0,0,1,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,0,0,1,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,0,0,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,0,0,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,0,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,0,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,0,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,0,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,0,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,0,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,1,0,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,1,0,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,1,5,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,1,5,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,25,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,25,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,25,0,1,10,50,Baseball Cap or Sunglasses,Sweatshirt,Pants,Shoes,Nothing
+,25,0,1,10,60,Baseball Cap or Sunglasses,Long Sleeve Shirt,Pants,Shoes,Nothing
+,25,0,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Nothing
+,25,0,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Nothing
+,50,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,50,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,50,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,50,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,50,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,50,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,50,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,50,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,50,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,50,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,50,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,75,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,75,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,75,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,75,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,75,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,75,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,0,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,0,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,0,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,0,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,0,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,0,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,1,0,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,1,0,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,1,5,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,1,5,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,100,0,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Nothing
+,100,0,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Nothing
+,100,0,1,10,50,Nothing,Sweatshirt,Pants,Shoes,Nothing
+,100,0,1,10,60,Nothing,Long Sleeve Shirt,Pants,Shoes,Nothing
+,100,0,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Nothing
+,100,0,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Nothing
+,0,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,0,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,0,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,0,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,0,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,0,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,0,10,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,0,10,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,0,10,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,0,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,0,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,0,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,0,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,0,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,1,0,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,5,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,1,5,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,25,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,25,10,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Shoes,Umbrella
+,25,10,1,10,70,Baseball Cap or Sunglasses,T-Shirt,Shorts,Shoes,Umbrella
+,25,10,1,10,85,Baseball Cap or Sunglasses,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,50,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,50,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,50,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,50,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,75,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,75,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,75,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,75,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,0,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,0,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,0,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,0,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,0,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,0,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,0,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,0,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,0,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,0,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,1,0,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,1,0,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,0,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,0,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,1,0,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,1,5,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,1,5,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,5,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,5,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,1,5,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,100,10,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,10,1,10,40,Winter Hat,Jacket,Heavy Pants,Shoes,Umbrella
+,100,10,1,10,50,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,10,60,Nothing,Raincoat,Pants,Shoes,Umbrella
+,100,10,1,10,70,Nothing,T-Shirt,Shorts,Shoes,Umbrella
+,100,10,1,10,85,Nothing,T-Shirt,Shorts,Sandals,Umbrella
+,0,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,0,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,0,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,0,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,0,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,0,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,0,50,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,0,50,1,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,0,50,1,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,0,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,0,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,0,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,0,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,0,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,1,0,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,0,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,0,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,0,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,1,5,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,5,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,5,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,5,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,25,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,25,50,1,10,50,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,10,60,Baseball Cap or Sunglasses,Raincoat,Pants,Boots,Umbrella
+,25,50,1,10,70,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,25,50,1,10,85,Baseball Cap or Sunglasses,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,50,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,50,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,50,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,50,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,75,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,75,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,75,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,75,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,0,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,0,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,0,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,0,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,0,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,0,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,0,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,0,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,0,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,1,0,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,1,0,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,0,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,0,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,0,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,5,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,1,5,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,1,5,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,5,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,5,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,5,85,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,10,20,Winter Hat and Scarf,Winter Coat,Heavy Pants,Boots,Umbrella
+,100,50,1,10,40,Winter Hat,Jacket,Heavy Pants,Boots,Umbrella
+,100,50,1,10,50,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,10,60,Nothing,Raincoat,Pants,Boots,Umbrella
+,100,50,1,10,70,Nothing,Raincoat,Shorts,Shoes,Umbrella
+,100,50,1,10,85,Nothing,Raincoat,Shorts,Shoes,Umbrella

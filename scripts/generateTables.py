@@ -1,6 +1,7 @@
 from helpers import *
 import itertools
 import csv
+from predict import createModels
 
 # To start server:
 # pg_ctl -D E:\WeatherWareDB start
@@ -54,21 +55,21 @@ clothes = pd.DataFrame(
 		["Accessories", "Nothing"],
 		["Accessories", "Umbrella"],
 	],
-	columns = [
-		'slot',
-		'item'])
+	columns = ['slot', 'item'])
 upsert(clothes, 'clothes', verbose = True)
 
-# # Create training set
-# optionsList = [
-# 	[0, 25, 50, 75, 100], # clouds
-# 	[0, 10, 50], # rain
-# 	[0, 1], # snow
-# 	[0, 5, 10], # wind
-# 	[20, 40, 50, 60, 70, 85] # temp
-# ]
-# with open("trainingSet.csv", "wb") as f:
-#     writer = csv.writer(f)
-#     writer.writerows(list(itertools.product(*optionsList)))
-trainingSet = pd.read_csv("trainingSetWithOutput.csv")
+# Create training set
+optionsList = [
+	[user], # username
+	[0, 25, 50, 75, 100], # clouds
+	[0, 10, 50], # rain
+	[0, 1], # snow
+	[0, 5, 10], # wind
+	[20, 40, 50, 60, 70, 85] # temp
+]
+with open("scripts" + delim + "trainingSet.csv", "wb") as f:
+    writer = csv.writer(f)
+    writer.writerows(list(itertools.product(*optionsList)))
+trainingSet = pd.read_csv("scripts" + delim + "trainingSetWithOutput.csv")
 upsert(trainingSet, 'training_set', verbose = True)
+createModels(verbose = True)

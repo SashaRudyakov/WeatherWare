@@ -6,7 +6,7 @@ import itertools
 import getpass
 import platform
 import pickle
-import datetime
+from datetime import date, timedelta
 
 # If you've already gone through setup
 fileLocation = "localData.pkl"
@@ -22,7 +22,7 @@ except:
 	pw = getpass.getpass("PSQL Password:\t")
 	server = raw_input("PSQL Server IP:\t")
 	API_key = raw_input("OWM API Key:\t")
-	hash_key = getpass.getpass("AES Key:\t")
+	hash_key = getpass.getpass("Hash Key:\t")
 	pickle.dump([user, pw, server, API_key, hash_key], pkl_file)
 
 # DB info
@@ -60,8 +60,7 @@ weatherColumns = [
 	"temp_evening",
 	"temp_night",
 	"status",
-	"detailed_status",
-]
+	"detailed_status"]
 
 # Weather attributes currently used in predictions
 modelInputs = [
@@ -69,8 +68,7 @@ modelInputs = [
 	"rain",
 	"snow",
 	"wind",
-	"temp"
-]
+	"temp_day"]
 
 # What's being predicted from models
 modelList = [
@@ -78,18 +76,21 @@ modelList = [
 	"torso",
 	"legs",
 	"feet",
-	"accessories"
-]
+	"accessories"]
 
 # Columns in person table
 personColumns = itertools.product(
 	modelList,
 	modelInputs,
 	["mult", "add"])
+personStats = [
+	"visited",
+	"suggested"]
 daysColumns = itertools.product(
 	["days"],
-	["visited", "suggested"],
+	personStats,
 	["total", "in_a_row"])
-personColumns = (["username", "pw", "last_visit", "last_suggestion"]
+personColumns = (["username", "pw"]
+	+ ["last_" + personStat + "_date" for personStat in personStats]
 	+ ["_".join(column) for column in daysColumns]
 	+ ["_".join(column) for column in personColumns])

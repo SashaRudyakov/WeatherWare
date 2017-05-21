@@ -49,7 +49,7 @@ def getDailyMessages(user = None, city = None, numResults = 2):
 		# Download user data
 		personData = download(
 			table = "person",
-			where = "username = '" + user + "'")
+			where = "username = " + pFormat(user))
 
 		# Special username messages
 		if "gaven" in user.lower() or "sasha" in user.lower():
